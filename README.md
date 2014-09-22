@@ -1,7 +1,7 @@
 SearchEngine
 ===========
 
-This is a project from my Data Structures and Object-Oriented Programming class that uses an interface created using Qt, which searches for keywords in text files. There is also a page rank option to rank the "webpages" or text files by popularity.
+This is my project from my Data Structures and Object-Oriented Programming class that uses an interface created using Qt, which searches for keywords in text files. There is also a page rank option to rank the "webpages" or text files by popularity.
 
 ###Compile & Run Instructions
 For best results, run in Linux. 
