@@ -1,0 +1,11 @@
+CC=g++-4.8
+
+all: crawler.o
+
+crawler.o: lib/set.h lib/web.h web.cpp crawler.cpp
+	$(CC) -g -Wall crawler.cpp web.cpp -o crawler
+
+.PHONY: clean
+
+clean:
+	rm -f *.o *~ crawler
